@@ -129,6 +129,36 @@ button:hover {
   margin-left: 50px;
 }
 
+/* contact part */
+#contact-part {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 50px;
+  background-color: rgb(245, 206, 179);
+  text-align: center;
+  border-radius: 60px;
+}
+form {
+  width: 700px;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+input {
+  height: 30px;
+  margin-bottom: 5px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+textarea {
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+}
 /* -------footer------ */
 footer {
   margin-top: 200px;
@@ -140,6 +170,6 @@ footer {
 footer h1 {
   font-family: "Lobster Two";
 }
-#red {
+.red {
   color: #ff5959;
 }
